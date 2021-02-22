@@ -1,0 +1,7 @@
+# Ignore Extracted folder
+**/node_exporter-*/*
+**/prometheus-*/*
+
+# Ignore tar files
+node_exporter-*
+prometheus-*
