@@ -1,7 +1,9 @@
 # Ignore Extracted folder
+**/blackbox_exporter-*/*
 **/node_exporter-*/*
 **/prometheus-*/*
 
 # Ignore tar files
+blackbox_exporter-*
 node_exporter-*
 prometheus-*
