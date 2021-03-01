@@ -1,6 +1,5 @@
 #!/bin/bash
 PROMETHEUS_VERSION='2.22.1'
-NODE_EXPORTER_VERSION='1.1.0'
 
 if [ -f /usr/local/bin/prometheus ]
 then
@@ -58,7 +57,7 @@ else
     sudo chown prometheus:prometheus /etc/prometheus
     sudo chown prometheus:prometheus /var/lib/prometheus
     echo -e "\n"
-    
+
     # Copy console and console libraries to /etc/prometheus
     echo -e "\033[0;33m Copy console and console libraries to /etc/prometheus......................\033[0m \n"
     sudo cp -r prometheus-$PROMETHEUS_VERSION.linux-amd64/consoles /etc/prometheus
